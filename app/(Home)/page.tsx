@@ -10,7 +10,11 @@ const HomePage = () => {
       <Button variant="halloween">Submit</Button>
       <Button variant="success">Submit</Button>
       <Button variant="ocean">Submit</Button>
-      <Button variant="violet">Submit</Button>
+      <div className="flex container mt-10 mx-auto">
+        <Button variant="violet" size="full">
+          Submit
+        </Button>
+      </div>
     </main>
   );
 };
