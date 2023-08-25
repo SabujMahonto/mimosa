@@ -1,3 +1,5 @@
+import Navbar from "@/components/shared/Navbar";
+import Footer from "@/components/shared/Footer";
 import "./globals.css";
 import type { Metadata } from "next";
 import { Bai_Jamjuree } from "next/font/google";
@@ -18,7 +20,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={BaiJamjuree.className}>{children}</body>
+      <body className={BaiJamjuree.className}>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
