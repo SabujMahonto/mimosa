@@ -9,7 +9,7 @@ const Gallery = () => {
     <section id='gallery' className='mt-20 min-h-screen bg-dark text-light'>
       <div className='wrapper section-padding h-full  w-full'>
         <SectionTitle
-          subTitle='Gallery'
+          subtitle='Gallery'
           title='A visual glimpse of our beauties'
           color='bg-green'
         />

@@ -1,12 +1,26 @@
-import Hero from "@/components/home/Hero";
-import Packages from "@/components/home/Packages";
+import Community from '@/components/Home/Community';
+import CommunityGathered from '@/components/Home/CommunityGathered';
+import Gallery from '@/components/Home/Gallery';
+import Hero from '@/components/Home/Hero';
+import Packages from '@/components/Home/Packages';
+import Products from '@/components/products/products';
+import Footer from '@/components/shared/Footer/Footer';
+import Navbar from '@/components/shared/Navbar/Navbar';
 
 const HomePage = () => {
   return (
-    <main>
-      <Hero />
-      <Packages />
-    </main>
+    <>
+      <Navbar />
+      <main>
+        <Hero />
+        <Packages />
+        <Products />
+        <CommunityGathered />
+        <Community />
+        <Gallery />
+      </main>
+      <Footer />
+    </>
   );
 };
 
