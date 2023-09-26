@@ -3,7 +3,6 @@ import SectionTitle from '../shared/SectionTitle';
 import HorizontalTab from '../ui/HorizontalTab';
 import PackageItem from '../home/PackageItem';
 import { packageItem } from '@/types/packageItemType';
-
 const AllPackages = () => {
   return (
     <section className='wrapper section-padding min-h-screen'>
